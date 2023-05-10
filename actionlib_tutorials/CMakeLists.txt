@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(actionlib_tutorials)
 
 ## Find catkin dependencies
-find_package(catkin REQUIRED COMPONENTS actionlib message_generation)
+find_package(catkin REQUIRED COMPONENTS actionlib actionlib_msgs message_generation)
 
 ## Find Boost
 find_package(Boost REQUIRED COMPONENTS system thread)

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(nodelet_tutorial_math)
 
-find_package(catkin REQUIRED COMPONENTS nodelet roscpp std_msgs)
+find_package(catkin REQUIRED COMPONENTS nodelet roscpp std_msgs pluginlib)
 
 ## Setup include directories
 include_directories(${catkin_INCLUDE_DIRS})
